@@ -7,4 +7,7 @@ pet_age = input("How old is he/she? ")
 pet_type = input("What animal is it? ")
 
 # create object
+user_pet = Pet(pet_name, pet_age, pet_type)
+
 # display data
+
