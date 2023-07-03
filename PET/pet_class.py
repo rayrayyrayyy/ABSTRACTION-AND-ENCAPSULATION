@@ -4,6 +4,7 @@ class Pet:
         self.__name = name
         self.__age = age
         self.__animal_type = animal_type
+    
     # define methods (create setter and getter)
     # getters
     def get_name(self):
@@ -24,4 +25,7 @@ class Pet:
 
     def set_age(self, age):
         self.__age = age
-    
+
+    # define function to show data
+    def pet_data(self):
+        print("\nName:", self.__name, "\nAge:", self.__age, "\nType:", self.__animal_type)

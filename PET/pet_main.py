@@ -10,4 +10,4 @@ pet_type = input("What animal is it? ")
 user_pet = Pet(pet_name, pet_age, pet_type)
 
 # display data
-
+user_pet.pet_data()
