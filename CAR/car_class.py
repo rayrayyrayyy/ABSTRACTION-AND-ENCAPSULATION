@@ -4,6 +4,7 @@ class Car:
         self.__year_model = model
         self.__make = make
         self.__speed = speed
+
     # define methods
     #getters
     def get_year_model(self):
@@ -28,6 +29,6 @@ class Car:
     def brake(self):
         self.__speed -= 5 
 
-     # define function to show data
+    # define function to show data
     def car_info(self):
-        print("Car's year model:", self.__year_model, "Make:", self.__make, "Speed:", self.__speed)
+        print("Car's year model:", self.__year_model, "Make:", self.__make, "Speed:", self.__speed, 'kph')

@@ -2,13 +2,13 @@
 
 # create fan class
 class Fan:
-    
+
     # three constants for fan speed
     slow_speed = 1
     medium_speed = 2
     fast_speed = 3
 
-    def __init__ (self, speed = 'slow', radius = 5, color = 'blue', power = 0): # constructor
+    def __init__ (self, speed = slow_speed, radius = 5, color = 'blue', power = 0): # constructor
         self.__speed = speed
         self.__radius = radius
         self.__color = color
