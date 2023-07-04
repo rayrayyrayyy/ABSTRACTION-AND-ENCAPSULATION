@@ -1,3 +1,8 @@
+# import modules for design
+from colorama import Fore, Style
+import time
+import pyfiglet
+
 # import pet class
 from pet_class import Pet
 
