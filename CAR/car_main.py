@@ -16,5 +16,9 @@ print("\n...accelerating")
 for i in range (5):
     car_speed.accelerate()
     car_speed.car_speed()
-    
+
 # call brake method five times, display data
+print("\n...brake")
+for i in range (5):
+    car_speed.brake()
+    car_speed.car_speed()
