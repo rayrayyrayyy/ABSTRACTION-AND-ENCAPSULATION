@@ -48,7 +48,6 @@ class Fan:
     # define function to show data
     def fan_properties(self):
         time.sleep(1)
-        print('==='*35)
         print("SPEED: ", self.__speed)
         print("RADIUS: ", self.__radius) 
         print("COLOR: ", self.__color) 

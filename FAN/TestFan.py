@@ -26,11 +26,13 @@ def test_fan(): # create function
     fan_2.set_status(0)
 
     # display object's properties
-    print(fan1)
+    print('\033[1;33m', fan1, '\033[0m')
+    print('\033[0;34m==='*35, '\033[0m')
     fan_1.fan_properties()
 
     time.sleep(1.5)
-    print("\n", fan2)
+    print("\n\033[0;34m", fan2, '\033[0m')
+    print('\033[1;33m==='*35, '\033[0m')
     fan_2.fan_properties()
 
 test_fan()
