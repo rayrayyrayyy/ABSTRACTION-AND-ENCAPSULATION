@@ -28,4 +28,4 @@ class Pet:
 
     # define function to show data
     def pet_data(self):
-        print("\nName:", self.__name, "\nAge:", self.__age, "\nType:", self.__animal_type)
+        print('\033[1;35m' + "Name:", '\033[4m' + self.__name + '\033[0m', '\033[1;35m' + "\nAge:", '\033[4m' + self.__age + '\033[0m', '\033[1;35m' + "\nType:", '\033[4m' + self.__animal_type + '\033[0m')
