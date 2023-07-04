@@ -27,3 +27,7 @@ class Car:
 
     def brake(self):
         self.__speed -= 5 
+
+     # define function to show data
+    def car_info(self):
+        print("Car's year model:", self.__year_model, "Make:", self.__make, "Speed:", self.__speed)
