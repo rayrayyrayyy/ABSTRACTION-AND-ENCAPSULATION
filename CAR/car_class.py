@@ -31,4 +31,4 @@ class Car:
 
     # define function to show data
     def car_speed(self):
-        print("Car's current speed:", self.__speed, 'kph')
+        print('\033[0;33m' + "Car's current speed:" + '\033[0m', self.__speed, 'kph')
