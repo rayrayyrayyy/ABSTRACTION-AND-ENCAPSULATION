@@ -19,3 +19,10 @@ def test_fan(): # create function
     fan_2.set_status(0)
 
     # display object's properties
+    print("Properties of FAN 1")
+    fan_1.fan_properties()
+
+    print("\nProperties of FAN 2")
+    fan_2.fan_properties()
+
+test_fan()
