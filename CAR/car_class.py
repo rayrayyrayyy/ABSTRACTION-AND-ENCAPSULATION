@@ -1,7 +1,7 @@
 # create car class
 class Car:
-    def __init__ (self, model, make, speed = 0):
-        self.__year_model = model
+    def __init__ (self, year_model = "", make = "", speed = 0):
+        self.__year_model = year_model
         self.__make = make
         self.__speed = speed
 
@@ -30,5 +30,5 @@ class Car:
         self.__speed -= 5 
 
     # define function to show data
-    def car_info(self):
-        print("Car's year model:", self.__year_model, "Make:", self.__make, "Speed:", self.__speed, 'kph')
+    def car_speed(self):
+        print("Car's current speed:", self.__speed, 'kph')

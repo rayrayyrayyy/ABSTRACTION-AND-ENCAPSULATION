@@ -6,9 +6,15 @@ year_model = int(input("what is year model is your car? "))
 make = input("Make of your car? ")
 
 # create object
-users_car = Car(year_model, make)
+car_speed = Car()
+
+print("\n\nCar year model: ", year_model)
+print("Make of the car: ", make)
 
 # call accelerate method five times, display data
+print("\n...accelerating")
+for i in range (5):
+    car_speed.accelerate()
+    car_speed.car_speed()
+    
 # call brake method five times, display data
-
-users_car.car_info()
