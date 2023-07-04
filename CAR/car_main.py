@@ -12,10 +12,10 @@ make = input("Make of your car? ")
 
 # create object
 car_speed = Car()
-print('\n' + '==='*20)
+print('\n' + '==='*15)
 print(Fore.LIGHTCYAN_EX + "Car year model: " + Style.RESET_ALL + '\033[1;33m', year_model, '\033[0m')
 print(Fore.LIGHTCYAN_EX + "Make of the car: " + Style.RESET_ALL + '\033[1;33m', make, '\033[0m')
-print('==='*20)
+print('==='*15)
 
 # call accelerate method five times, display data
 print("\n...accelerating")
