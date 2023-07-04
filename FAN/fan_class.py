@@ -1,5 +1,10 @@
 # Ray Allessandra D. Pacis  |  BSCPE 1-5
 
+# import modules for design
+from colorama import Fore, Style
+import time
+import pyfiglet
+
 # create fan class
 class Fan:
 
@@ -43,5 +48,9 @@ class Fan:
     
     # define function to show data
     def fan_properties(self):
-        print("\nSPEED: ", self.__speed, "\nRADIUS: ", self.__radius, "\nCOLOR: ", self.__color, "\nPOWER: ", self.__power)
+        time.sleep(1)
+        print("SPEED: ", self.__speed)
+        print("RADIUS: ", self.__radius) 
+        print("COLOR: ", self.__color) 
+        print("POWER: ", self.__power)
 

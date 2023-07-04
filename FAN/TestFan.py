@@ -1,5 +1,4 @@
 # import modules for design
-from colorama import Fore, Style
 import time
 import pyfiglet
 
