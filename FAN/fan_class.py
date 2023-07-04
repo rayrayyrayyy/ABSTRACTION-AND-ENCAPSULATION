@@ -3,7 +3,6 @@
 # import modules for design
 from colorama import Fore, Style
 import time
-import pyfiglet
 
 # create fan class
 class Fan:
@@ -49,8 +48,9 @@ class Fan:
     # define function to show data
     def fan_properties(self):
         time.sleep(1)
+        print('==='*35)
         print("SPEED: ", self.__speed)
         print("RADIUS: ", self.__radius) 
         print("COLOR: ", self.__color) 
-        print("POWER: ", self.__power)
+        print("POWER: ", self.__power, '\n')
 

@@ -2,6 +2,9 @@
 import time
 import pyfiglet
 
+fan1 = pyfiglet.figlet_format("Properties of FAN 1", font = 'small', width = 100, justify = 'center')
+fan2 = pyfiglet.figlet_format("Properties of FAN 2", font = 'small', width = 100, justify = 'center')
+
 # import fan class
 from fan_class import Fan
 
@@ -23,10 +26,11 @@ def test_fan(): # create function
     fan_2.set_status(0)
 
     # display object's properties
-    print("Properties of FAN 1")
+    print(fan1)
     fan_1.fan_properties()
 
-    print("\nProperties of FAN 2")
+    time.sleep(1.5)
+    print("\n", fan2)
     fan_2.fan_properties()
 
 test_fan()
